@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscosConDByADONET.Clases
+namespace DiscosDBAdoNet
 {
-    public class Tipo
+    class Estilos
     {
         public string Descripcion { get; set; }
 

@@ -1,1 +1,0 @@
-# DiscosDByAdo-NET

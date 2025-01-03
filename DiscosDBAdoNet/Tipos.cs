@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscosConDByADONET.Clases
+namespace DiscosDBAdoNet
 {
-    public class Estilos
+    class Tipos
     {
         public string Descripcion { get; set; }
-
         public override string ToString()
         {
             return Descripcion;
         }
+
     }
 }

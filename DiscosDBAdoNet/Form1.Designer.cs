@@ -1,4 +1,4 @@
-﻿namespace DiscosConDByADONET
+﻿namespace DiscosDBAdoNet
 {
     partial class Form1
     {
@@ -30,65 +30,54 @@
         {
             this.dgvDiscos = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.picBoxDiscos = new System.Windows.Forms.PictureBox();
+            this.picBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDiscos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxDiscos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvDiscos
             // 
-            this.dgvDiscos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDiscos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDiscos.GridColor = System.Drawing.SystemColors.ActiveBorder;
-            this.dgvDiscos.Location = new System.Drawing.Point(25, 40);
-            this.dgvDiscos.MaximumSize = new System.Drawing.Size(800, 800);
+            this.dgvDiscos.Location = new System.Drawing.Point(53, 51);
             this.dgvDiscos.Name = "dgvDiscos";
             this.dgvDiscos.RowHeadersWidth = 51;
             this.dgvDiscos.RowTemplate.Height = 24;
-            this.dgvDiscos.Size = new System.Drawing.Size(470, 289);
+            this.dgvDiscos.Size = new System.Drawing.Size(358, 270);
             this.dgvDiscos.TabIndex = 0;
             this.dgvDiscos.SelectionChanged += new System.EventHandler(this.dgvDiscos_SelectionChanged);
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.Location = new System.Drawing.Point(25, 354);
+            this.button1.Location = new System.Drawing.Point(53, 366);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 41);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // picBoxDiscos
+            // picBox
             // 
-            this.picBoxDiscos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.picBoxDiscos.Location = new System.Drawing.Point(501, 40);
-            this.picBoxDiscos.MaximumSize = new System.Drawing.Size(800, 800);
-            this.picBoxDiscos.Name = "picBoxDiscos";
-            this.picBoxDiscos.Size = new System.Drawing.Size(269, 289);
-            this.picBoxDiscos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBoxDiscos.TabIndex = 2;
-            this.picBoxDiscos.TabStop = false;
+            this.picBox.Location = new System.Drawing.Point(460, 51);
+            this.picBox.Name = "picBox";
+            this.picBox.Size = new System.Drawing.Size(303, 270);
+            this.picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox.TabIndex = 2;
+            this.picBox.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(802, 453);
-            this.Controls.Add(this.picBoxDiscos);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.picBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDiscos);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDiscos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxDiscos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -97,7 +86,7 @@
 
         private System.Windows.Forms.DataGridView dgvDiscos;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox picBoxDiscos;
+        private System.Windows.Forms.PictureBox picBox;
     }
 }
 
