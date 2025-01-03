@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscosDBAdoNet
+namespace Dominio
 {
-    class Estilos
+    public class Estilos
     {
         public string Descripcion { get; set; }
 

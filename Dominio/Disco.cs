@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscosDBAdoNet.Clases
+namespace Dominio
 {
-    class Disco
+    public class Disco
     {
         public int Id { get; set; }
 

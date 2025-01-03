@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using Dominio;
 
-namespace DiscosDBAdoNet.Clases
+namespace Negocio
 {
-    class DiscoNegocio
+    public class DiscoNegocio
     {
 
         public List <Disco> Listar() 
