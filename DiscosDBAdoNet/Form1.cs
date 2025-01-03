@@ -29,7 +29,7 @@ namespace DiscosDBAdoNet
         {
             DiscoNegocio discos = new DiscoNegocio();
             _discoLista = discos.Listar();
-            dgvDiscos.DataSource = _discoLista;9
+            dgvDiscos.DataSource = _discoLista;
             dgvDiscos.Columns["Id"].Visible = false;
             dgvDiscos.Columns["UrlImagenTapa"].Visible = false;
             CargarImagen(_discoLista[0].UrlImagenTapa);
